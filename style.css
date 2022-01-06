@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+p{
+    color: gray;
+}
+/* default */
+.flx{
+    display: flex;
+}
+.hw{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.btn{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 35px;
+    background-image: linear-gradient(orange, red);
+    border-radius: 5px;    
+}
+.ocl{
+    color: orange;
+}
+.ocr{
+    color: red;
+}
+.ta{
+    text-align: center;
+}
+
+/* first-part */
+.content h1{
+    border-left: 5px solid orangered;
+    padding-left: 10px;
+}
+.content p{
+    line-height: 25px;
+}
+.image img{
+    max-width: 50%;
+    margin-left: 50px;
+}
+/* mission part */
+.mission-part .box{
+    width: 32%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 15px 15px;
+    border-radius: 10px;
+}
+.box img{
+    max-width: 35%;
+}
+.box{
+    box-shadow: 1px 1px 15px gray;
+}
+#mission{
+    background-color: rgba(255, 187, 187, .3);
+}
+#vission{
+    background-color: rgba(174, 232, 255, .3);
+}
+#goal{
+    background-color: rgba(148, 140, 255, .3);
+}
+.mission-part{
+    margin-bottom: 100px;
+}
+
+/* development part */
+.dev-img-img{
+    max-width: 90%;
+    margin-left: 50px;
+}
+.dev-content{
+    margin-left: 0;
+}
+.development{
+    margin-bottom: 100px;
+}
+/* community */
+.com-img-img{
+    max-width: 80%;
+}
+.com-img{
+    position: relative;
+}
+.circle{
+    position: absolute;
+    bottom: 0%;
+    right: 7%;
+    z-index: -1;
+    width: 180px;
+}
+.communication{
+    margin-left: 50px;
+    margin-bottom: 100px;
+}
+
+/* promo */
+
+.promo{
+    max-width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 100px;
+}
+.promo h1{
+    font-size: 48px;
+}
+.promo-img-img{
+    max-width: 80%;
+    margin-left: 15%;
+}
+
+
+
+
+
+
+
+/* footer */
+.footer{
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+}
+.footer h2{
+    font-family: 'Dancing Script', cursive;
+}
